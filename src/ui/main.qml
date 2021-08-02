@@ -9,6 +9,8 @@ import Mozilla.VPN 1.0
 import "./components"
 import "themes/themes.js" as Theme
 
+import Nebula 1.0
+
 import org.mozilla.Glean 0.15
 import telemetry 0.15
 

@@ -33,7 +33,8 @@ INCLUDEPATH += \
             hacl-star/kremlin \
             hacl-star/kremlin/minimal \
             ../glean/telemetry \
-            ../translations/generated
+            ../translations/generated \
+            ../nebula
 
 DEPENDPATH  += $${INCLUDEPATH}
 
@@ -284,7 +285,8 @@ unix {
     HEADERS += signalhandler.h
 }
 
-RESOURCES += qml.qrc
+RESOURCES += qml.qrc \
+    nebula.qrc
 
 exists($$PWD/../glean/telemetry/gleansample.h) {
     RESOURCES += $$PWD/../glean/glean.qrc

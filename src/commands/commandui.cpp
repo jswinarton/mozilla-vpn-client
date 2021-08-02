@@ -130,6 +130,7 @@ int CommandUI::run(QStringList& tokens) {
     QmlEngineHolder engineHolder;
     QQmlApplicationEngine* engine = QmlEngineHolder::instance()->engine();
     engine->addImportPath("qrc:///glean");
+    engine->addImportPath("qrc:///nebula");
 
     MozillaVPN vpn;
     vpn.setStartMinimized(minimizedOption.m_set);
