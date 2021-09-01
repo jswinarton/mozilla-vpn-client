@@ -19,7 +19,8 @@ constexpr const std::array<const char*, 4> ANIMATED_ICON_STEPS = {
     ":/ui/resources/logo-animated3.png", ":/ui/resources/logo-animated4.png"};
 
 constexpr const char* ICON_ON = ":/ui/resources/logo-on.png";
-constexpr const char* ICON_GENERIC = ":/ui/resources/logo-generic.png";
+constexpr const char* ICON_GENERIC =
+    ":/ui/resources/jeremy-linux-tests/32-adjusted.png";
 #else
 constexpr const std::array<const char*, 4> ANIMATED_ICON_STEPS = {
     ":/ui/resources/logo-animated1.svg", ":/ui/resources/logo-animated2.svg",

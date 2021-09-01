@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>ui/resources/logo-dock.png</file>
+        <file>ui/resources/jeremy-linux-tests/logo-dock.svg</file>
     </qresource>
 </RCC>
