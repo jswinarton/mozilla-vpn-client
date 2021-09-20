@@ -1,6 +1,10 @@
 # Mozilla VPN
 
 TODO verfiy the formatting is correct here
+TODO replace pip installation instructions with requirements.txt everywhere
+TODO make these "quick install" instructions and then create a separate
+document with more information, tweaks, "best practices" for building, etc.
+TODO make batch file directory fix
 
 >_One tap to privacy
 >
@@ -289,6 +293,21 @@ You may be interested in flags like -i for the inspector (see ./scripts/apple_co
 9. To build the apk for release the environment variable ADJUST_SDK_TOKEN is required. It must be set to the app token of the Adjust SDK dashboard.
 
 ### Windows
+
+First, ensure you have the following dependencies installed and available on your PATH:
+
+
+
+#. [perl](http://strawberryperl.com/)
+#. [nasm](https://www.nasm.us/)
+#. [Python 3](https://www.python.org/downloads/windows/)
+#. [Visual Studio 2019](https://visualstudio.microsoft.com/vs/) (ensure you have the C++ desktop environment installed)
+
+TODO make sure the language you use to describe the C++ dependencies is correct
+
+We use a statically compiled version of Qt (version 5.15)
+
+... [old stuff follows]
 
 We use a statically-compiled QT5.15 version to deploy the app. There are many
 tutorials about to how to compile QT5 on windows, but to make this task
